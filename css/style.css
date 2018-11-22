@@ -1,0 +1,29 @@
+body {
+  background-color: #8899aa;
+}
+.page {
+  margin: 20px auto;
+  width: 1000px;
+  height: 580px;
+  background-color: white;
+  box-shadow: 5px 6px 10px black;
+}
+.bar {stroke: steelblue; fill:steelblue; }
+
+#tooltip {
+  width: 150px; height: 50px; 
+  border-radius: 4px; 
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 99;
+  opacity: 0;
+  text-align: center;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+#title { 
+  font-size: 250%; 
+  font-family: sans-serif;
+}
